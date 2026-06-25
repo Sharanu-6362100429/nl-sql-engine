@@ -57,7 +57,7 @@ POST /api/query
 User Request (question + role)
          │
          ▼
-┌─────────────────────────────────────────┐
+┌─────────────────────────────────────────┐ 
 │           QueryController               │
 │      Orchestrates entire pipeline       │
 └──────────────────┬──────────────────────┘
