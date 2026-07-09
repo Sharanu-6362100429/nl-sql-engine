@@ -2,7 +2,7 @@
  # NL-SQL Engine                     
 
 > Convert plain English to SQL — powered by Spring AI and Groq LLaMA 3.3 70B
-
+ 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen)](https://spring.io/projects/spring-boot)
 [![Spring AI](https://img.shields.io/badge/Spring%20AI-1.0.0--M6-blue)](https://spring.io/projects/spring-ai)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)](https://www.postgresql.org/)
@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
  
 ---
-
+  
 ## What is this?
 
 NL-SQL Engine lets anyone query a database using plain English — no SQL knowledge required.
@@ -31,7 +31,7 @@ The same concept powers **Swiggy's internal Hermes tool** used by their data and
 
 ```
 POST /api/query
-{
+{ 
   "question": "show all employees with salary above 50000",
   "role": "hr"
 }
